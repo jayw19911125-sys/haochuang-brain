@@ -13,7 +13,7 @@
 公司大腦 raw 網址（永遠最新）：
 
 ```
-RAW_URL_PLACEHOLDER
+https://raw.githubusercontent.com/jayw19911125-sys/haochuang-brain/master/haochuang_brain.md
 ```
 
 ## 維護規則
