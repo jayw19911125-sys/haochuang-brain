@@ -5,7 +5,7 @@ description: 好創整合行銷的 AI 內容生產工作流。當需要為好創
 
 # 好創 AI 內容生產工作流
 
-好創背景請同步載入 `haochuang-brand-context` skill。
+本工作流供好創任何團隊成員使用。執行前請同步載入 `haochuang-brand-context` skill。
 
 ## 好創的內容服務邊界
 

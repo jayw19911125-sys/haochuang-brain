@@ -8,7 +8,7 @@ description: "以最嚴厉的反方角度攻擊系統、文件、流程，系統
 **技能 ID**：`adversarial-review-optimization`  
 **版本**：v1.0  
 **最後更新**：2026-06-15  
-**維護者**：Dennis COO
+**維護者**：好創團隊
 
 ---
 

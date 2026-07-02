@@ -8,7 +8,7 @@ description: "使用 clamp() 動態計算實現完美響應式設計，優先考
 **技能 ID**：`responsive-content-first-design`  
 **版本**：v1.0  
 **最後更新**：2026-06-15  
-**維護者**：Dennis COO
+**維護者**：好創團隊
 
 ---
 

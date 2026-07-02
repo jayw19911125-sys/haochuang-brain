@@ -5,11 +5,11 @@ description: 好創整合行銷的 Manus 技能管理工具。當使用者需要
 
 # Skills Manager
 
-好創整合行銷的 Manus 技能管理工具，提供技能盤點、中文手冊更新與合併判斷的完整工作流。
+好創整合行銷的 Manus 技能管理工具，供團隊任何成員使用，提供技能盤點、中文手冊更新與合併判斷的完整工作流。
 
 ## 核心資源
 
-- **`scripts/audit_skills.py`**：掃描 `/home/ubuntu/skills/` 下所有技能，提取 name / description / 檔案清單，輸出 JSON。
+- **`scripts/audit_skills.py`**：自動偵測並掃描 skills 目錄（預設為本 repo 內的 `skills/`，亦可 `--skills-dir` 指定），提取 name / description / 檔案清單，輸出 JSON。
 - **`references/handbook.md`**：最新版中文技能管理手冊，含判斷時機、關鍵語意觸發句、好創場景對應表。
 
 ## 工作流
@@ -20,9 +20,9 @@ description: 好創整合行銷的 Manus 技能管理工具。當使用者需要
 
 ### 任務 B：全面盤點所有技能（手冊已過期或新增技能後）
 
-1. 執行掃描腳本，取得最新技能清單：
+1. 執行掃描腳本，取得最新技能清單（腳本會自動偵測 repo 內的 skills 目錄）：
    ```bash
-   python /home/ubuntu/skills/skills-manager/scripts/audit_skills.py --output /tmp/skills_audit.json
+   python skills-manager/scripts/audit_skills.py --output /tmp/skills_audit.json
    ```
 2. 讀取 `/tmp/skills_audit.json`，逐一比對各技能的 `description` 欄位。
 3. 合併判斷標準（必須同時滿足）：

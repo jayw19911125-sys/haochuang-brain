@@ -6,9 +6,9 @@
 
 ## 核心觀念
 
-你不需要記住任何技能名稱，也不需要說出完整句子。**只要說出關鍵語意，系統自動判斷並調用對應技能。**
+團隊成員不需要記住任何技能名稱，也不需要說出完整句子。**只要說出關鍵語意，系統自動判斷並調用對應技能。**
 
-**好創專屬鐵則**：任何好創相關任務，開頭說「**這是好創的任務**」，系統自動載入品牌語氣、定價邏輯、組織架構與工具棧。
+**好創專屬鐵則**：任何好創相關任務，開頭說「**這是好創的任務**」，系統自動載入品牌語氣、組織架構與工具棧（具體定價以公司大腦為準，不寫死）。
 
 ---
 
@@ -17,7 +17,7 @@
 | 錯誤說法 | 正確關鍵語意 |
 |---|---|
 | 「請使用 imagegen 技能幫我畫圖」 | 「幫我畫一張圖，**用途是...**」 |
-| 「請用 excel-generator 處理」 | 「幫我做一份**給老闆看的** Excel 報表」 |
+| 「請用 excel-generator 處理」 | 「幫我做一份**給決策層看的** Excel 報表」 |
 | 「請幫我 debug」 | 「找出**根本原因**，不要只修表面」 |
 | 「幫我寫社群貼文」 | 「**這是好創的任務**，幫我寫貼文」 |
 
@@ -67,7 +67,7 @@
 | 技能 | 什麼時候用 | 關鍵語意觸發句 |
 |---|---|---|
 | `deep-research` | 需要有引用來源的深度調查報告 | **「深度研究...市場，附引用來源」** |
-| `market-research-reports` | 需要給老闆或投資人看的頂級市場報告 | **「生成一份顧問等級的市場研究報告」** |
+| `market-research-reports` | 需要給決策層或投資人看的頂級市場報告 | **「生成一份顧問等級的市場研究報告」** |
 | `competitive-ads-extractor` | 想知道競品在 Facebook 下什麼廣告 | **「提取並分析...品牌的競品廣告」** |
 | `lead-research-assistant` | 需要找潛在客戶名單與開發策略 | **「找出...產業的潛在客戶名單」** |
 | `meta-ads-analyzer` | Meta 廣告數據看不懂，需要專家診斷 | **「診斷我的 Meta 廣告，找出根本問題」** |
@@ -78,7 +78,7 @@
 
 | 技能 | 什麼時候用 | 關鍵語意觸發句 |
 |---|---|---|
-| `excel-generator` | 需要排版精美、有洞察結論的 Excel 報表 | **「做一份給老闆看的專業 Excel 報表」** |
+| `excel-generator` | 需要排版精美、有洞察結論的 Excel 報表 | **「做一份給決策層看的專業 Excel 報表」** |
 | `xlsx` | 需要修復公式、轉換格式、處理大量數據 | **「修復/轉換/計算這個 Excel 檔案」** |
 | `pptx` | 需要建立或修改 PowerPoint 簡報 | **「把這份內容做成 PPT 簡報」** |
 | `scientific-slides` | 需要學術發表或論文答辯用的嚴謹簡報 | **「製作學術研討會用的簡報」** |
@@ -153,7 +153,7 @@
 | 競品廣告分析 | `competitive-ads-extractor` → `excel-generator` |
 | Meta 廣告成效診斷 | `meta-ads-analyzer` → `excel-generator` |
 | 潛在客戶名單開發 | `lead-research-assistant` → `excel-generator` |
-| 市場趨勢報告（給老闆/投資人） | `deep-research` → `market-research-reports` |
+| 市場趨勢報告（給決策層/投資人） | `deep-research` → `market-research-reports` |
 | 社群貼文配圖 | `imagegen` → `generate-image` |
 | 品牌主視覺海報 | `brand-guidelines` → `canvas-design` |
 | 全套 AI 廣告影片 | `video-generator` → `music-prompter` |
